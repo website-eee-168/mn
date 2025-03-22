@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        div{
+            padding: 100px;
+            display: flex;
+            font-size: 30px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: pink;
+            transition: all 0.5s inherit;
+        }
+        div:hover{
+            background-color: yellow;
+        }
+        .box{
+            border: 2px double red;
+            padding: 10px;
+            margin-top: 18px;
+        }
+        div ol{
+            display: flex;
+        }
+        div ul{
+            display: flex;
+            list-style: none;
+            text-shadow: 1px 1px 1px;
+        }
+        div ul:hover{
+            color: red;
+        }
+        div li{
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ol type="A">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>  
+        </ul>
+    </div>
+</body>
+</html>
